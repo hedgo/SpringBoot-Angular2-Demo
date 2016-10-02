@@ -4,7 +4,8 @@
     "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "outDir": "build/ts"
   },
   "filesGlob": [
     "./src/main/ts/**/*.ts",

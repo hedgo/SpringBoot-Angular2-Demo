@@ -2,10 +2,10 @@
   "name": "angular2-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/main/ts/index.js",
+  "main": "buildts/index.js",
   "scripts": {
     "tsc": "tsc -p .",
-    "webpack": "webpack src/main/ts/index.js --output-filename build/resources/main/static/bundle.js",
+    "webpack": "webpack build/index.js --output-filename build/resources/main/static/bundle.js",
     "build": "npm run tsc && npm run webpack"
   },
   "keywords": [],
